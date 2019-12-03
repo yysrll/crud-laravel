@@ -63,7 +63,11 @@
             {{csrf_field()}}
                 <div class="form-group">
                     <label for="inputNama">Nama</label>
-                    <input name="nama" type="text" class="form-control" id="inputNama" placeholder="Enter name">
+                    <input name="nama" type="text" class="form-control" id="inputNama" placeholder="Masukkan nama">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input name="email" type="email" class="form-control" id="inputNama" placeholder="Masukkan email">
                 </div>
                 <div class="form-group">
                     <label for="selectJK">Pilih Jenis Kelamin</label>
